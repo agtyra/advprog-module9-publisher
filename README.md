@@ -7,3 +7,7 @@
 
 - Running RabbitMQ as message broker
      ![alt text](img/img1.png)
+
+- Sending and processing event
+    ![alt text](img/img2.png)
+    In the left terminal window we ran cargo run, which compiles the publisher and then sends five UserCreatedEventMessage events to RabbitMQ. In the right terminal window the subscriber was already listening on the same queue. As each event arrives, the handler prints lines showing that all five messages were received in real time.
