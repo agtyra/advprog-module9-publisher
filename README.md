@@ -6,4 +6,4 @@
     Both programs connect with amqp://guest:guest@localhost:5672 so they target the same RabbitMQ broker instance using identical credentials and network address. By sharing this URI, messages published by the publisher arrive at the exact broker and queue that the subscriber is listening on, enabling reliable communication between them.
 
 - Running RabbitMQ as message broker
-     ![alt text](img/image.png)
+     ![alt text](img/img1.png)
